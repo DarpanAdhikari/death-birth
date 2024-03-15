@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    padding: 20px 25px;
+    padding-top: 75px;
+}
+.dropper{
+    height: 100%;
+}
+.drop-down{
+    display: none;
+}
+.dropper:hover{
+    .drop-down{
+        display: block;
+    }
+}
+
+@media print {
+    .print-btn,
+    #print-btn{
+        display: none;
+    }
+    .applicant-details{
+        display: none;
+    }
+}
